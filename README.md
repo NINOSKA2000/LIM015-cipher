@@ -42,7 +42,7 @@ la plataforma virtual esta diseñado inicialmente para encriptar textos, pero se
 
 ### Consideraciones Técnicas
 * SECRET DOCTOR, pasó todas las pruebas test unitarios
-![alt text](imagenes/test.jpeg) 
+![alt text](imagenes/test.PNG) 
 
 
 *

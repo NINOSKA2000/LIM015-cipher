@@ -57,17 +57,17 @@ header nav a:hover{
 
 main, footer{
 
-padding: 10px 20px 10 px 10px; 
-width: 90%;
-height: 90%;
-max-width: 1000px;
-margin: auto;
-overflow: hidden;
+    padding: 10px 20px 10 px 10px; 
+    width: 90%;
+    height: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 
 }
 
 h1{
-    padding-left: 50px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     float:none;
@@ -81,15 +81,14 @@ h1{
 
 #texto ,#resultado{
 
-display:block;
-padding: 0.8rem 0.5rem ;
-font-size: 1.2rem;
-outline:0;
-border: 3px  solid #005f73  ;
-background-color:#94d2bd ;
-width: 500px;
-height: 100px;
-
+    display:block;
+    padding: 0.8rem 0.5rem ;
+    font-size: 1.2rem;
+    outline:0;
+    border: 3px  solid #005f73  ;
+    background-color:#94d2bd ;
+    width: 500px;
+    height: 100px;
 }
 
 
@@ -99,26 +98,49 @@ height: 100px;
 }
 
 
+
+#contraseña {
+
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#023047;
+    padding: 1rem 1rem ;
+    opacity:0.8;
+    text-decoration:dotted; 
+}
+
+
+
 button[type="submit"]
 {
 
-margin-bottom: 1rem;
-padding: 1rem 1rem ;
-background-color:#d9ed92;
-text-align: center;
-text-transform: uppercase;
-outline:0;
-border-radius:5%;;
-color:
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-transition:background-color 0.25s;
- 
+    margin-bottom: 1rem;
+    padding: 1rem 1rem ;
+    background-color:#d9ed92;
+    text-align: center;
+    text-transform: uppercase;
+    outline:0;
+    border-radius:5%;;
+    color:#001219;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:background-color 0.25s;
 }
 
 
 button[type="submit"]:active
 {
     background-color:chartreuse;
+}
+
+p {
+
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#023047;
+    padding: 6rem 2rem 4rem ;
+    opacity:0.8;
+    text-decoration:dotted;
+    text-align: right;
 }
 
 

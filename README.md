@@ -26,7 +26,7 @@ SECRET DOCTOR es una aplicación web que resultará útil tanto para el publico 
 ### Instrucciones de uso
   Para acceder a la aplicación web "a" se tiene que seguir el siguiente link:
 
-  "https://gloryrojas.github.io/lim-2018-11-bc-core-am-cipher/src/"
+  "https://........"
 
   La página tiene una interfaz sencilla y de fácil uso con una pantalla para todas las acciones, lo que el usuario tendría que hacer es:
 * Abrir la página

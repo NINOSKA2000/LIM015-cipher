@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SECRET DOCTOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<body>
+   
+  <header>
+      <div class="logo">secret doctor </div>
+      <nav>
+        <a href="#">Quienes somos</a>
+        <a href="#">Inicio</a>
+      </nav>
+  </header>
+
+  <main>      
+
+     <h1> Bienvenido al portal de cifrado y decifrado de mensajes , escribe tu mensaje para cifrar o descifrar  <br> <br></h1>
+    
+    <section id="root">     
+        
+      <textarea  name="texto" id="texto"  placeholder ="introduce tu texto" ></textarea>
+    <form class="formulario">
+      <label for="contraseña" > contraseña </label>
+      <input type="password" id="contraseña" placeholder="contraseña en números">
+
+       <i class="fa-solid fa-circle-xmark"></i>
+    </form>
+               
+    </section>
+
+     <section class="botones">
+
+        <button type="submit" id="cipher"> Encriptar</button>
+        <button type="submit" id="decipher"> Desencriptar</button>
+        <button type="submit" id="limpiar"> limpiar</button>
+
+     </section>
+
+
+    <section class=" textoResultado" >
+      <textarea name="resultado" id="resultado"  placeholder=" resultado" ></textarea>
+
+    </section>
+  </main>  
+  <footer>
+  
+
+
+
+    
+  </footer>
+  
+    <script src="index.js" type="module" >  </script>
+    <script src="https://kit.fontawesome.com/a07f6fa05e.js" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

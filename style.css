@@ -1,0 +1,124 @@
+
+*{
+
+    margin: 5px;
+
+}
+
+body{
+   width: 100%;
+   height: 100%;;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-position:initial;
+   background-size: cover ;
+   background-image:url(https://cdn.dribbble.com/users/3167791/screenshots/14596067/media/193616e102ed670195a2c379e70915f3.jpg)
+   
+   }
+
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #222c3d;
+    margin-bottom: 20px;
+}
+
+header .logo{
+    color: cornsilk;
+    font-size:50px;
+    line-height: 80px;
+    float: left;
+    font-family:serif;
+}
+
+header nav{
+
+    float: right;
+    line-height: 60px;
+}
+
+header nav a {
+    display: inline-block;
+    color:darkgray;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+header nav a:hover{
+    background-color:darkslategrey;
+    border-radius:50px;
+}
+
+
+main, footer{
+
+padding: 10px 20px 10 px 10px; 
+width: 90%;
+height: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+
+}
+
+h1{
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    float:none;
+
+}
+
+#contraseña{
+    outline:0;
+}
+
+
+#texto ,#resultado{
+
+display:block;
+padding: 0.8rem 0.5rem ;
+font-size: 1.2rem;
+outline:0;
+border: 3px  solid #005f73  ;
+background-color:#94d2bd ;
+width: 500px;
+height: 100px;
+
+}
+
+
+#texto:focus ,#contraseña:focus{
+
+    border: 6px  solid #ee9b00  ;  
+}
+
+
+button[type="submit"]
+{
+
+margin-bottom: 1rem;
+padding: 1rem 1rem ;
+background-color:#d9ed92;
+text-align: center;
+text-transform: uppercase;
+outline:0;
+border-radius:5%;;
+color:
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+transition:background-color 0.25s;
+ 
+}
+
+
+button[type="submit"]:active
+{
+    background-color:chartreuse;
+}
+
+

@@ -20,10 +20,12 @@ let cifrado=cipher.encode(contrasena,palabra);
 //console.log(cifrado);
 
 //mostrar en pantalla
+
 document.getElementById("resultado").innerHTML= cifrado;
 }
 
 const botonCipher=document.getElementById("cipher");
+
 botonCipher.addEventListener("click",textoCifrado);
 
 

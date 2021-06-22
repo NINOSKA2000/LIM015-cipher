@@ -1,5 +1,5 @@
 
-const cipher =
+const cipher = 
 {
   encode: function (contrasena,palabra) 
   {
@@ -12,26 +12,29 @@ const cipher =
         
     let cifrado ="";
 
-    for (var i = 0; i <= palabra.length; i++)
-    {
+    for (var i = 0; i <= palabra.length; i++) {    
       let numContrasena=Number(contrasena);
       let indice = palabra.charCodeAt(i);
 
+      // const indice
+
       if (indice==32)
       {
-      let cifradoEspacio=32;
-      cifrado += String.fromCharCode(cifradoEspacio);
+        let cifradoEspacio=32;
+        cifrado += String.fromCharCode(cifradoEspacio);
       }
 
       else 
       {
-      cifrado += String.fromCharCode((indice-65+ numContrasena)%26+65);     
+       cifrado += String.fromCharCode((indice-65+ numContrasena)%26+65);     
       }
       //console.log(cifrado);
 
     }
     return cifrado;
-  },
+  }
+  
+  ,
 
   decode: function (contrasena,palabra) 
   {

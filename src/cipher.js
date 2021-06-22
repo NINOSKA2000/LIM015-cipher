@@ -24,7 +24,7 @@ const cipher =
         cifrado += String.fromCharCode(cifradoEspacio);
       }
 
-      else 
+      else if ( indice >=65 && indice<=90)
       {
        cifrado += String.fromCharCode((indice-65+ numContrasena)%26+65);     
       }
@@ -33,7 +33,6 @@ const cipher =
     }
     return cifrado;
   }
-  
   ,
 
   decode: function (contrasena,palabra) 
@@ -55,17 +54,15 @@ const cipher =
         decifrado += String.fromCharCode(cifradoEspacio);
         }
     
-        else 
+        else if(indice >=65 && indice<=90)
         {
-        decifrado += String.fromCharCode((indice+65-numContrasena)%26+65);     
+        decifrado += String.fromCharCode((indice-90-numContrasena)%26+90);     
       // console.log(decifrado);
         }
       }
       return decifrado;
-
   }
 };
-
 
 export default cipher;
 
